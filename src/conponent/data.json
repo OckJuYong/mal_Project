@@ -1,0 +1,22 @@
+[
+  {
+    "ID": "1",
+    "SlideName": "Home Slider",
+    "AssignPage": "Home",
+    "CreateData": "2022-12-22" 
+    },
+    {
+    "ID": "2",
+    "SlideName": "Contact page header",
+    "AssignPage": "Contact",
+    "CreateData": "2022-12-24" 
+    },
+    {
+    "ID": "3",
+    "SlideName": "i wan't go to home",
+    "AssignPage": "My-Home",
+    "CreateData": "2023-2-23" 
+    }
+]
+  
+  

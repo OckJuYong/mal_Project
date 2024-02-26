@@ -1,0 +1,346 @@
+.slider__main__container {
+
+}
+
+.create__button__container  {
+    position: absolute;
+    margin-left: calc(238px + 5vw);
+
+    top: 20vh;
+}
+
+.create__button__save {
+    width: 10vw;
+    margin: 0vw 2vw 0vw 0vw;
+    background-color: red;
+}
+
+.create__button__cancel {
+    width: 10vw;
+    margin: 0vw 1vw 0vw 1vw;
+    background-color: red;
+}
+
+.slider__name__header1 {
+    position: absolute;
+    top: 30vh;
+    margin-left: calc(238px + 5vw);
+    width: 75.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider__name__header1__name {
+    display: flex;
+    justify-content: start;
+}
+
+.slider__name__header1__input {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 4.5vh;
+    margin-top: 1vh;
+}
+
+.slider__height__container {
+    position: absolute;
+    width: 40%;
+    top: 40vh;
+    margin-left: calc(238px + 5vw);
+
+}
+
+.slider__height__name {
+    display: flex;
+    justify-content: start;
+}
+.slider__height__inputInfo__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.slider__height__input {
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    height: 4.5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.slider__height__check__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider__height__check {
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    width: 5vw;
+    border: 1px solid #282828;
+    justify-content: center;
+    font-weight: 700;
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75),
+            -2px -2px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+.slider__height__px {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    margin-left: 0.5vw;
+    font-weight: 700;
+    box-shadow: #282828;
+}
+
+.body__main__container {
+    position: absolute;
+    top: 50vh;
+    margin-left: calc(238px + 5vw);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.body__main__1__container {
+    width: 19vw;
+    height: 35vh;
+    border: 1px solid black;
+}
+
+.slide__subMain__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.add_slide_button {
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    margin-left: 1vw;
+}
+
+.add_slide_title_1 {
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+}
+
+.slide_button_1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+    margin: 2vh 0 1vh 1vw;
+}
+
+.slide_img_1 {
+    transform: rotate(90deg);
+    margin-left: -0.5vw;
+
+}
+
+.add_slide_title_2 {
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 1.5vh;
+}
+
+.slide_button_2 {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+    margin: 2vh 0 1vh 1vw;
+
+}
+
+.slide_img_2 {
+    transform: rotate(90deg);
+    margin-left: -0.5vw;
+
+}
+
+.add_slide_title_3 {
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.slide_button_3 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+    margin: 2vh 0 1vh 1vw;
+
+}
+.slide_img_3 {
+    transform: rotate(90deg);
+    margin-left: -0.5vw;
+}
+
+.choice__body__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.body__main__2__container {
+    width: 28vw;
+    height: 45vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.body__main__img__title {
+    display: flex;
+    justify-content: start;
+    margin-top: 1.5vh;
+    font-weight: 700;
+    margin-left: 1vw;
+    font-weight: 900;
+
+}
+
+.img_URL {
+    margin-top: 1vh;
+    border-radius: 10px;
+    height: 4.5vh; 
+    font-weight: 700;
+    height: 15%;
+    width: 95%;
+    margin-left: 2.5%;
+
+}
+.img__upload__button__container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 13%;
+    
+}
+.main__img__upload__button {
+    position: relative;
+    top: 0;
+    left: 30%;
+    opacity: 0;
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.main__img__upload__name {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    width: 30%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imsi_img_container {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.body__main__3__container {
+    width: 28vw;
+    height: 45vh;
+    border: 1px solid black;
+
+}
+
+.slide_button_3 div {
+    font-size: 24px; /* 아이콘의 크기 */
+    color: #000; /* 아이콘의 색상 */
+}
+
+.body__main__3__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading__container {
+    width: 90%;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 2.5vh;
+}
+
+.body__main__3__heading {
+    display: flex;
+    justify-content: start;
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+
+.main__3__heading__input {
+    height: 3vh;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
+
+.caption__container {
+    width: 90%;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.body__main__3__caption {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: start;
+    font-weight: 700;
+}
+
+.main__3__caption__input {
+    height: 25vh; /* 예시로 지정된 높이값을 수정하세요 */
+    border-radius: 10px;
+    word-wrap: break-word;
+    vertical-align: top; /* 수직 정렬을 맨 위로 설정 */
+    padding-top: 10px; /* 선택적으로 상단에 간격을 추가할 수 있습니다 */
+    font-weight: 900;
+}
