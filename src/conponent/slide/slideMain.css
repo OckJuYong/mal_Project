@@ -1,5 +1,7 @@
-.slider__main__container {
-
+.slide__table__main__container {
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
 }
 
 .create__button__container  {
@@ -13,12 +15,18 @@
     width: 10vw;
     margin: 0vw 2vw 0vw 0vw;
     background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5vw;
 }
 
 .create__button__cancel {
     width: 10vw;
     margin: 0vw 1vw 0vw 1vw;
     background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5vw;
 }
 
 .slider__name__header1 {
@@ -105,10 +113,25 @@
     
 }
 
+.slide_img {
+    width: 100%;
+    height: 100%;
+}
+
+.imsi_image_upload {
+    width: 37%;
+    height: auto;
+    position: absolute;
+}
+
+.body__main__2__scroll-container {
+    max-height: 35vh; /* 고정된 높이 설정 */
+    overflow-y: auto; /* 수직 스크롤이 생기도록 설정 */
+}
+
 .body__main__1__container {
     width: 19vw;
     height: 35vh;
-    border: 1px solid black;
 }
 
 .slide__subMain__container {
@@ -119,10 +142,13 @@
 .add_slide_button {
     background-color: red;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     display: flex;
     justify-content: start;
+    align-items: center;
     margin-left: 1vw;
+    height: 15%;
+    
 }
 
 .add_slide_title_1 {
@@ -134,7 +160,7 @@
     margin-bottom: 1.5vh;
 }
 
-.slide_button_1 {
+.slide_button {
     border: 1px solid black;
     border-radius: 10px;
     width: 80%;
@@ -147,7 +173,24 @@
     margin: 2vh 0 1vh 1vw;
 }
 
-.slide_img_1 {
+.del__button {
+    position: relative;
+    border-radius: 50px;
+    width: 2vw;
+    height: 4vh;
+    top: -0.5vh;
+    left: 50%;
+    border: 1px solid #282828;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.slide_img_right {
     transform: rotate(90deg);
     margin-left: -0.5vw;
 
@@ -215,7 +258,6 @@
 .body__main__2__container {
     width: 28vw;
     height: 45vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -274,7 +316,6 @@
 }
 
 .imsi_img_container {
-    border: 1px solid black;
     width: 100%;
     height: 100%;
 }
@@ -284,7 +325,6 @@
 .body__main__3__container {
     width: 28vw;
     height: 45vh;
-    border: 1px solid black;
 
 }
 
@@ -304,7 +344,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-top: 2.5vh;
+    margin-top: 1.5vh;
 }
 
 .body__main__3__heading {
@@ -315,7 +355,7 @@
 }
 
 .main__3__heading__input {
-    height: 3vh;
+    height: 4vh;
     border-radius: 10px;
     font-weight: 700;
 

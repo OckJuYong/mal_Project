@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./css/slider.css">
+</head>
+<body>
+    <button id="add">Add New Slide</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="popup">Slide Name</p>
+            <input id="clidername">
+            <button id="creat2">Create</button>
+        </div>
+    </div>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("add");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <table>
+        <tr>
+            <th id="id">ID</th>
+            <th id="name">Slide Name</th>
+            <th id="assign">Assign to Page</th>
+            <th id="date">Create Date</th>
+            <th id="image">    </th>
+        </tr>
+        <tbody id="slideTableBody">
+            <script>
+                fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.getElementById('slideTableBody');
+                    const pages = ['page1.html', 'page2.html', 'page3.html'];
+                    for (let i = 1; i <= 12; i++) {
+                    const row = document.createElement('tr');
+                    if (data[i - 1]) {
+                        const slide = data[i - 1];
+                        row.innerHTML = `
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'>${slide.ID}</td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'><a href="${pages[i-1]}">${slide.SlideName}</a></td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'>${slide.AssignPage}</td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'>${slide.CreateDate}</td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'></td>
+                        `;
+                    } else {
+                        row.innerHTML = `
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'></td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'></td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'></td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'></td>
+                        <td class='${i % 2 === 0 ? 'even' : 'odd'}'></td>
+                        `;
+                    }
+                    tableBody.appendChild(row);
+                    }
+                });
+
+            </script>
+        </tbody>
+    </table>
+
+</body>
+</html>

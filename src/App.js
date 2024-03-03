@@ -8,6 +8,7 @@ import login from './conponent/login/login';
 import signup from './conponent/login/signup';
 
 import slideMain from './conponent/slide/slideMain';
+import SlideTable from './conponent/slide/slideTable';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route path="/login" Component={login} />
         <Route path="/signup" Component={signup} />
         <Route path='/slideMain' Component={slideMain} />
-
+        <Route path='/SlideTable' Component={SlideTable} />
       </Routes>
     </BrowserRouter>
   );

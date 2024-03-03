@@ -1,0 +1,124 @@
+
+
+table{ border-collapse : collapse; }
+ th,td{
+    height: 60px; 
+    text-align: center;    
+    vertical-align: top;
+    vertical-align: bottom;
+    vertical-align: middle;
+ }
+
+.even {
+    background-color: rgb(240, 240, 240);
+    border-left: 3px solid #ffffff;
+}
+
+.odd:not(:first-child){
+    border-left: 3px solid #a3a3a3;
+}
+
+#id{
+    width : 90px;
+}
+ #name{
+    width :1200px;
+    text-align:left;
+    padding-left: 50px;
+ }
+
+ #assign{
+    width : 250px;
+ }
+
+ #date{
+    width : 170px;
+ }
+
+ #image{
+    width : 140px;
+ }
+
+ th{
+    background-color:  rgb(160, 0, 0);
+    color: white;
+    font-weight:500;
+    border-left: 4px solid #ffffff;
+    font-size: 25px;
+ }
+
+#add{
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    height: 80px;
+    width: 250px;
+    background-image: linear-gradient(to top, #ff1100, #ff7700);
+    margin-bottom: 80px;
+ }
+
+ .modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0,0,0,0.4);
+ }
+ 
+ .modal-content {
+   background-color: #fefefe;
+   margin: 15% auto;
+   padding: 20px;
+   border: 1px solid #888;
+   height: 30%;
+   width: 40%;
+   border-radius: 10px;
+ }
+ 
+ .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ #clidername{
+   width: 90%;
+   height: 15%;
+   font-size: 15px;
+   margin-top:10px;
+   margin-left: 40px;
+ }
+
+ #creat2{
+   width: 200px;
+   height: 50px;
+   float: right;
+   margin-right: 35px;
+   margin-top: 80px;
+   background-color: #ff1100;
+   border:none;
+   border-radius: 10px;
+   color: white;
+   font-size: 20px;
+ }
+  
+ #popup{
+   font-size: 30px;
+   font-weight: 700;
+   margin-left: 40px;
+   margin-top: 35px;
+ }
+

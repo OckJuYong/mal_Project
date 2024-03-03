@@ -23,7 +23,7 @@ const Main = () => {
                     <a href="#" className="dashboard-nav-item"> Parameter </a>
                     <a href="#" className="dashboard-nav-item"> Products </a>
                     <a href="#" className="dashboard-nav-item"> Vendor </a>
-                    <div className='dashboard-nav-dropdown'><a href="/slideMain" className="dashboard-nav-item ">
+                    <div className='dashboard-nav-dropdown'><a href="/slideTable" className="dashboard-nav-item ">
                         Slide
                     </a>
                     </div>
